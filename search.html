@@ -1,0 +1,235 @@
+<html>
+
+
+<script>
+function tableFilter() {
+
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+  
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+	  	
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}       
+		}
+	}
+</script>
+
+<body>
+
+<table id="myTable">
+						<tr class="header">
+							
+					<input type="text" id="myInput" onkeyup="tableFilter()" placeholder="Search for content.." title="Type in a name">
+		
+						
+						<br><br>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#qa1">
+												General Alcoholism Information
+												<i class="fa fa-angle-right pull-right"></i>
+											</a>
+										</h3>
+									</div>
+									<div id="qa1" class="panel-collapse collapse">
+										<div class="panel-body">
+
+											<h4>
+												Alcohol Withdrawal</h4>
+											<p>There are numerous factors that go into what causes an alcohol withdrawal.</p>
+
+											<p>When you drink, alcohol is broken down by an enzyme in your liver. This process helps rid alcohol from your system through urine. Any alcohol that's not metabolized is absorbed by other parts of your body, like your brain.</p>
+
+											<p>When alcohol impacts your brain, you may experience feelings of happiness and relaxation. An excessive amount of alcohol around the brain can lead to symptoms of drunkenness slurred speech, difficulty walking and memory lapses. However, because chronic drinking affects your tolerance, your body will crave more alcohol in order to produce the same feelings.</p>
+
+											<p>Alcohol suppresses certain neurotransmitters in your brain which cause you to feel at ease after drinking. When you quit drinking, the neurotransmitters are no longer inhibited by alcohol. This results in hyperexcitability the reason why withdrawal symptoms affect you differently from alcohol consumption.</p>
+
+											<p>Alcohol withdrawal side effects vary in each person. Many people are hesitant to quit drinking because of the thought of uncomfortable withdrawal symptoms. However, alcohol addiction treatment specialists can provide you with prescription medications to help relieve pain. By reducing withdrawal symptoms, you will be able to focus on getting better.</p>
+
+											<p>Don't let the fear of possible withdrawal symptoms prevent you from getting the help you deserve. Learn more about treating alcoholism and support options by calling us today.</p>
+
+
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#qa2">
+												Alcohol Withdrawal Timeline of Symptoms
+												<i class="fa fa-angle-right pull-right"></i>
+											</a>
+										</h3>
+									</div>
+									<div id="qa2" class="panel-collapse collapse">
+										<div class="panel-body">										
+											<p>Alcohol withdrawal symptoms can occur as early as two hours after your last drink. Typically, symptoms will peak within the first 24 to 48 hours. This is when you may experience the most uncomfortable withdrawal symptoms such as insomnia, rapid heartbeat, changes in blood pressure, sweating, tremors and fever.</p>
+
+											<p>While some people experience very few withdrawal symptoms, others may suffer from more serious side effects. For example, delirium tremens is one of the most severe alcohol withdrawal symptoms. It can surface within the first 48 hours after your last drink and involves confusion, shaking, hallucinations and high blood pressure. Although delirium tremens is uncommon, it can be life-threatening. Heavy drinkers who suddenly stop drinking may experience any of a range of dangerous symptoms, so it's important to be treated by a medical professional during detox.</p>
+
+											<<h4>The timeline for common withdrawal symptoms is:</h4>
+
+											<p>Six to 12 hours post-ingestion</p>
+											<p>Agitation</p>
+											<p>Anxiety</p>
+											<p>Headaches</p>
+											<p>Shaking</p>
+											<p>Nausea and vomiting</p>
+
+											<p>12 to 24 hours post-ingestion</p>
+											<p>Disorientation</p>
+											<p>Hand tremors</p>
+											<p>Seizures</p>
+
+											<p>48 hours post-ingestion</p>
+											<p>Seizures</p>
+											<p>Insomnia</p>
+											<p>High blood pressure</p>
+											<p>Tactile, auditory and visual hallucinations</p>
+											<p>High fever and excessive sweating</p>
+											<p>Delirium tremens</p>
+
+											<p>Alcohol withdrawal symptoms are impacted by several factors including frequency of drinking, amount consumed during drinking, length of time drinking, medical history and co-occurring health conditions. A person is more likely to experience severe withdrawal symptoms if they've abused alcohol and drugs.</p>
+
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#qa3">
+												Get help for alcoholism
+												<i class="fa fa-angle-right pull-right"></i>
+											</a>
+										</h3>
+									</div>
+									<div id="qa3" class="panel-collapse collapse">
+										<div class="panel-body">
+											
+		
+												<h4>
+													Take your life back by getting started in a treatment program today.</h4>
+												<p>Learn more about treatment</p>
+
+												<p>Alt text</p>
+
+												<p>Acute Alcohol Withdrawal</p>
+
+												<p>An acute alcohol withdrawal syndrome occurs when you experience sudden and severe withdrawal symptoms. This frequently happens within the first couple of weeks after you quit drinking. During this time, you're most at risk of temporarily losing consciousness, developing delirium tremens or having seizures. Because of the life-threatening health complications that can arise during acute alcohol withdrawal, it is recommended that you stay at a hospital or a specialized rehab facility for treatment. A medical professional will assess your mental and physical health frequently throughout the day to make sure symptoms do not escalate.</p>
+
+												<p>There are many facilities that have experience in treating acute alcohol withdrawal. These programs have a team of specialists that will help minimize your withdrawal symptoms, prevent complications and focus on your well-being. Contact us to find the right alcohol treatment facility for you.</p>
+
+												<p>Post-Acute Withdrawal Syndrome (PAWS)</p>
+
+												<p>After the initial alcohol withdrawal symptoms have subsided, some people may experience prolonged side effects. This is known as Post-Acute Withdrawal Syndrome (PAWS). PAWS involves withdrawal symptoms that occur after an acute withdrawal and can make post-rehab life challenging for some individuals. Depending on the severity of your alcohol abuse, PAWS can last anywhere from a few weeks to a year.</p>
+
+												<p>Common symptoms of PAWS include:</p>
+												<p>Irritability and emotional outbursts</p>
+												<p>Anxiety</p>
+												<p>Low energy</p>
+												<p>Trouble sleeping</p>
+												<p>Memory problems</p>
+												<p>Dizziness</p>
+												<p>Increased accident proneness</p>
+												<p>Delayed reflexes</p>
+												
+	
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+						<tr>
+							<td>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3 class="panel-title">
+											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#qa4">
+												The brain has tremendous capacity to heal, but it doesn't heal quickly. In general, PAWS symptoms peak around four to eight weeks after quitting. Most addicts know about PAWS from their experience of quitting and then relapsing because they felt terrible, they just don't have a name for it.
+
+												<i class="fa fa-angle-right pull-right"></i>
+											</a>
+										</h3>
+									</div>
+									<div id="qa4" class="panel-collapse collapse">
+										<div class="panel-body">
+											
+											<p>Dr. David Sack </p>
+											<p>CEO, Promises Treatment Centers and Elements Behavioral Health (pulled from The Huffington Post)</p>
+
+											<p>How to Safely Treat Alcohol Withdrawal Symptoms</p>
+
+											<p>Alcohol withdrawal symptoms can shift quickly and violently you can experience minor symptoms to extremely severe side effects in a matter of hours. There are many alcohol treatment programs that focus on helping individuals overcome drinking problems, no matter how minor or how serious.</p>
+
+											<p>Specialized rehab facilities offer many benefits to those struggling with alcohol addiction. For example, treatment specialists will be able to alleviate some of your painful withdrawal symptoms, as well as provide guidance through your entire recovery process.</p>
+
+											<p>The types of therapy and services provided in rehab are based on your history with alcohol abuse, such as frequency and amount consumed.</p>
+
+											<p>Since there's no one-size-fits-all approach to treating alcohol abuse, recovery programs usually consist of:</p>
+
+											<p>Inpatient treatment</p>
+
+											<p>Inpatient rehab facilities offer a safe, supervised environment for patients struggling with alcohol addiction. With 24-hour care, this is the most intensive form of treatment and typically entails 30, 60 or 90-day programs.</p>
+
+											<p>Outpatient treatment</p>
+
+											<p>Outpatient rehab allows patients to attend to their daily responsibilities while in recovery. This option is best suited for those with less severe forms of alcohol abuse since individuals will be around drinking triggers and other influences.</p>
+
+											<p>Medication-assisted therapy</p>
+
+											<p>To help relieve uncomfortable withdrawal symptoms, many treatment programs offer medication-assisted therapy. Certain prescribed medications can treat alcohol withdrawal, allowing patients to focus on other aspects of recovery.</p>
+
+											<p>Individual counseling</p>
+
+											<p>Alcohol rehab counselors provide support during the highs and lows of alcohol withdrawal. Counselors also look to see if there are underlying factors that may have influenced an alcohol addiction and coach patients on how to work through various matters.</p>
+
+											<p>Support groups</p>
+
+											<p>Recovery continues long after rehab. Support groups, like Alcoholics Anonymous and Al-Anon, offer an outlet to discuss treatment goals and challenges with other people who are in alcohol recovery. This will provide you with motivation to maintain your sobriety.</p>
+
+											<p>After the alcohol withdrawal stage, you will transition into other treatment therapies, activities and programs. These will provide you with the tools and resources to prevent triggers, continue on-going recovery and live a well-balanced life after rehab.</p>
+
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+										</div>
+									</div>
+								</div>
+							</td>						
+						</tr>
+						
+					</table>
+					
+					
+</body>
+
+</html>
